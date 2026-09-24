@@ -1,16 +1,17 @@
-coresPrimarias ={
+def corfunc(nome_cor, descricao):
+    print(f"a descrição da cor {nome_cor} é: {descricao}")
+
+primarias={
     "vermelho": "cor primaria, encontrada na natureza em plantas e no sangue",
     "azul": "cor primaria que é a cor do céu e do mar",
     "amarelo": "cor primaria que é encontrada principalmente na areia"
 }
-
-coresSecundarias = {
+secundarias={
     "laranja": "cor secundaria, resultado da mistura de vermelho e amarelo",
     "verde": "cor secundaria, resultado da mistura de azul e amarelo",
     "roxo": "cor secundaria, resultado da mistura de azul e vermelho"
 }
-
-coresTerciarias = {
+terciarias={
     "vermelho-alaranjado": "cor terciaria, resultado da mistura de vermelho e laranja",
     "amarelo-alaranjado": "cor terciaria, resultado da mistura de amarelo e laranja",
     "amarelo-esverdeado": "cor terciaria, resultado da mistura de amarelo e verde",
@@ -20,25 +21,21 @@ coresTerciarias = {
     "marrom": "cor terciaria, resultado da mistura de vermelho, amarelo e azul",
     "lilas": "cor terciaria, resultado da mistura de azul e vermelho com branco"
 }
-
-otrasCores = {
+outras={
     "branco": "cor neutra, resultado da mistura de todas as cores",
     "preto": "cor neutra, ausência de luz",
     "cinza": "cor neutra, resultado da mistura de preto e branco",
     "rosa": "cor neutra, resultado da mistura de vermelho e branco"
 }
 
-cor =input("Digite o nome de uma cor: ").lower().strip()
-while cor not in coresPrimarias and cor not in coresSecundarias and cor not in coresTerciarias and cor not in otrasCores:
-        cor = input("cor invalida, digite novamente: ").lower().strip()
-
-if cor in coresPrimarias:
-    resultado = coresPrimarias[cor]
-elif cor in coresSecundarias:
-    resultado = coresSecundarias[cor]
-elif cor in coresTerciarias:
-    resultado = coresTerciarias[cor]
-elif cor in otrasCores:
-    resultado = otrasCores[cor]
-    
-print(f"a descrição da cor {cor} é: {resultado}")
+cor=input("Digite o nome de uma cor: ").lower().strip()
+while cor not in primarias and cor not in secundarias and cor not in terciarias and cor not in outras:
+    cor = input("cor invalida, digite novamente: ").lower().strip()
+if cor in primarias:
+    corfunc(cor, primarias[cor])
+elif cor in secundarias:
+    corfunc(cor, secundarias[cor])
+elif cor in terciarias:
+    corfunc(cor, terciarias[cor])
+elif cor in outras:
+    corfunc(cor, outras[cor])
