@@ -29,6 +29,9 @@ otrasCores = {
 }
 
 cor =input("Digite o nome de uma cor: ").lower().strip()
+while cor not in coresPrimarias and cor not in coresSecundarias and cor not in coresTerciarias and cor not in otrasCores:
+        cor = input("cor invalida, digite novamente: ").lower().strip()
+
 if cor in coresPrimarias:
     resultado = coresPrimarias[cor]
 elif cor in coresSecundarias:
@@ -37,8 +40,5 @@ elif cor in coresTerciarias:
     resultado = coresTerciarias[cor]
 elif cor in otrasCores:
     resultado = otrasCores[cor]
-else:
-    while cor not in coresPrimarias and cor not in coresSecundarias and cor not in coresTerciarias and cor not in otrasCores:
-        cor = input("cor invalida, digite novamente: ").lower().strip()
-
+    
 print(f"a descrição da cor {cor} é: {resultado}")
