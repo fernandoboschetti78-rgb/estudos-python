@@ -8,4 +8,5 @@ os projetos nele são:
 - crieloops.py: um criador de loops para testar for in range e variaveis em () de range e time.sleep
 - listas.py: um codigo para testar listas, usando while para adicionar strings as listas e dando print nelas
 - dicionario_cores.py: um dicionário de cores para testar dicionários e funções def
+- Acalculadora.py: calculadora que calcula expressões, para testar eval, .replace e try/except
 
