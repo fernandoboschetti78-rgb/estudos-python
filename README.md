@@ -9,4 +9,4 @@ os projetos nele são:
 - listas.py: um codigo para testar listas, usando while para adicionar strings as listas e dando print nelas
 - dicionario_cores.py: um dicionário de cores para testar dicionários e funções def
 - Acalculadora.py: calculadora que calcula expressões, para testar eval, .replace e try/except
-
+- rpg.py: um rpg de texto para testar classes e funções
