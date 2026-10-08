@@ -10,3 +10,4 @@ os projetos nele são:
 - dicionario_cores.py: um dicionário de cores para testar dicionários e funções def
 - Acalculadora.py: calculadora que calcula expressões, para testar eval, .replace e try/except
 - rpg.py: um rpg de texto para testar classes e funções
+- painel.py: um teste de tkinter que cria pastas, arquivos e copia o próprio código, não consegue copia-lo se for transformada em um executavel 
