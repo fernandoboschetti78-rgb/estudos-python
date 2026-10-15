@@ -12,4 +12,6 @@ os projetos nele são:
 - rpg.py: um rpg de texto para testar classes e funções
 - painel.py: um teste de tkinter que cria pastas, arquivos e copia o próprio código, não consegue copia-lo se for transformada em um executavel
 - adv_cara_ou_coroa.pyw: um joguinho de adivinhar se a moeda é cara ou coroa
-- cara_ou_cora: fala se é cara ou coroa
+- cara_ou_coroa.py: fala se é cara ou coroa
+- calc.py: uma calculadora com o tkinter que calcula expressões
+  
