@@ -14,4 +14,6 @@ os projetos nele são:
 - adv_cara_ou_coroa.pyw: um joguinho de adivinhar se a moeda é cara ou coroa
 - cara_ou_coroa.py: fala se é cara ou coroa
 - calc.py: uma calculadora com o tkinter que calcula expressões
+- achar.pyw: localizador de arquivos
+- 
   
