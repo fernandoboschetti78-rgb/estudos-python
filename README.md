@@ -16,5 +16,5 @@ os projetos nele são:
 - cara_ou_coroa.py: fala se é cara ou coroa
 - calc.py: uma calculadora com o tkinter que calcula expressões
 - achar.pyw: localizador de arquivos
-- 
+- sorteador.py: cria nomes de comercio usando o banco de dados nomes
   
