@@ -1,5 +1,6 @@
 # estudos-python
 repositório com projetos de estudo para meu aprendizado em python
+banco de dados na branch sql
 
 os projetos nele são:
 - calculadora.py: uma calculadora bem simples via terminal
